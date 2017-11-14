@@ -30,11 +30,6 @@ class Human{
         pw.print(name+age);
     }
         
-    /*public void main(String[] args){
-        Human hito = new Human();
-        hito.age = 30;
-        hito.setHuman("富澤志保",24);
-    }*/
     
 }
 
@@ -57,7 +52,6 @@ public class class1 extends HttpServlet {
         try(PrintWriter out = response.getWriter()){
             Human hito = new Human();
             
-            hito.age = 40;
             hito.setHuman("富澤志保",24);
             hito.Print(out);
         }
